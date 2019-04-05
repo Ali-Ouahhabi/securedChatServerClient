@@ -1,0 +1,5 @@
+server_address: localhost
+server_port: 10000
+server_certificate: ./KeyA/A_certificate.crt
+server_privateKey: ./KeyA/A_privateKey.key
+data_base: pass.json

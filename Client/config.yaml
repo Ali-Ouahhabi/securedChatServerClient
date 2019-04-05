@@ -1,0 +1,3 @@
+server_address: localhost
+server_port: 10000
+server_certificate: ./KeyA_/A_certificate.crt
