@@ -14,6 +14,8 @@ An application developed with python 2.7, for a secure communication between cli
     sign USERNAME PASSWORD
 ##### sending a message to userX
     send userX message
+##### requesting the list of connected users
+    list
 
 ## The packacges used in this aplication 
 **cryptography** with fernet for key generation and message encryption/decryption also RSA for key encryption
