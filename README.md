@@ -7,7 +7,7 @@ An application developed with python 2.7, for a secure communication between cli
 
 ### starting the client
     python ./Client/client.py 
-#### the CLI handeled by the client application
+## the CLI handeled by the client application
 ##### authentication
     auth USERNAME PASSWORD
 ##### signing up
@@ -28,7 +28,7 @@ An application developed with python 2.7, for a secure communication between cli
 
 **socket** for network communication TCP dadatgram betweend client and server and UDP datagrame between clients
 
-## Configuration File 
+## Configuration Files 
 ### client configuration file 
 specify the ip address and the location of the server certificate 
 
