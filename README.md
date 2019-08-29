@@ -51,13 +51,12 @@ sepecify the ip address of the server, the location of it public and private key
 The architecture is based on a client server system for authentication and a client to client communication
 ## Server
 With a  private and public keys
-The server maintain a database  mapping usernames and hashed passwords 
-The server permit to a user to sign up and authentify himself 
-The server inform each connected client by any new connected or disconnected user and also a list of all connected client 
-The server generate a symmetric key when a user want to communicate with another user, and communicate it to both users
+* The server maintain a database  mapping usernames and hashed passwords 
+* The server permit to a user to sign up and authentify himself 
+* The server inform each connected client by any new connected or disconnected user and also, a list of all connected client 
+* The server generate a symmetric key when a user want to communicate with another user, and communicate it to both users
 ## Client
- With the server public key
-Client server Authentication
+ With the server public key, client server authentication
      ![Authentication and connexion anoucement](https://github.com/Ali-Ouahhabi/securedChatServerClient/blob/master/Ali%20Ouahhabi%20Problem%20set%203.svg)
 * First Step: the client enter his username and password, the application will hash the password, and generate a symmetric key K, then send to the server Pubk[K]:K{USERNAME:Hash(Password)}
 
