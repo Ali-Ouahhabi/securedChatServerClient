@@ -26,7 +26,7 @@ An application developed with python 2.7, for a secure communication between cli
 
 **PyYaml** to read configuration file
 
-**socket** for network communication TCP dadatgram betweend client and server and UDP datagrame between clients
+**socket** for network communication TCP dadatgram between client and server, and UDP datagrame between clients.
 
 ## Configuration Files 
 ### client configuration file 
